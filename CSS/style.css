@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alegreya', sans-serif;
+}
+
+.Home-Page {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.nav-container {
+    width: 80%;
+    margin: auto;
+    position: sticky;
+
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 48%;
+
+}
+
+.Nav-iteams {
+    float: right;
+}
+
+.Nav-iteams ul {
+    list-style: none;
+}
+
+.Nav-iteams li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.Nav-iteams li a:hover {
+    color: #E0B15B;
+}
+
+.Nav-iteams li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.home-content-container {
+    text-align: center;
+    padding-top: 11%;
+    color: whitesmoke;
+}
+
+.home-content-container p {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.home-content-container h1 {
+    font-size: 60px;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.btn {
+    padding: 25px;
+}
+
+.Primary-btn {
+    background-color: #8e7754;
+    padding: 15px 28px;
+    color: aliceblue;
+    border: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 9px;
+    transition: 0.5s;
+}
+
+.Secondary-btn {
+    background-color: transparent;
+    padding: 15px 28px;
+    color: aliceblue;
+    border: aliceblue solid 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Primary-btn:hover,
+.Secondary-btn:hover {
+    background: #f0f0f0;
+    color: #333;
+    font-weight: 700;
+}
+
+.ICON {
+    width: 30px;
+    height: 50px;
+    border: 2px solid white;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+
+.ICONCIRCLE {
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+
+
+.About-Us-Container {
+    width: 80%;
+    height: 95vh;
+    padding-top: 7%;
+    margin: auto;
+}
+
+.about-img {
+    width: 40%;
+    float: left;
+}
+
+.about-img img {
+    width: 600px;
+    border-radius: 15px;
+}
+
+.About-content-container {
+    float: right;
+    width: 40%;
+}
+
+.About-content-container p {
+    font-size: 19px;
+    color: #706e6e;
+    letter-spacing: 1px;
+    line-height: 29px;
+}
+
+.About-content-container h2 {
+    font-size: 35px;
+    color: #1f1f1f;
+}
+
+.Img-Icon {
+    border-radius: 50%;
+    border: #d9d5d0 1px solid;
+}
+
+.About-iteams img {
+    width: 35px;
+}
+
+.About-iteams li {
+    list-style: none;
+    font-size: 19px;
+    color: #706e6e;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+
+.span {
+    padding-right: 13px;
+    vertical-align: middle;
+}
+
+
+
+.Our-Location-Container {
+    width: 100%;
+    height: 65vh;
+    padding: 90px 62px;
+    margin: auto;
+    background: #F8F8F8;
+    margin: 70px 0;
+}
+
+.Our-Location-Content {
+    width: 30%;
+    float: left;
+}
+
+.Our-Location-Content h2 {
+    font-size: 35px;
+    color: #1f1f1f;
+}
+
+.Our-Location-Content p {
+    font-size: 19px;
+    color: #706e6e;
+    letter-spacing: 1px;
+    line-height: 29px;
+}
+
+.img-our-location {
+    width: 50%;
+    float: right;
+}
+
+.Our-Location-Container img {
+    width: 600px;
+    border-radius: 15px;
+}
+
+
+
+
+.Our-Baking-Container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    height: 90vh;
+}
+
+.Our-Baking-Content h2 {
+    font-size: 35px;
+    color: rgb(31, 31, 31)
+}
+
+.Our-Baking-Content p {
+    font-size: 20px;
+    color: #706e6e;
+    letter-spacing: 1px;
+    line-height: 29px;
+    padding: 25px;
+}
+
+.Iteams-Container {
+    width: 90%;
+    height: 80vh;
+    margin: auto;
+}
+
+.Bakery-Item {
+    width: 33%;
+    padding: 1%;
+    text-align: center;
+    float: left;
+
+}
+
+.Bakery-Item img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.Bakery-Item h3 {
+    font-size: 25px;
+    color: #1f1f1f;
+    padding: 13px;
+}
+
+.Bakery-Item p {
+    font-size: 15px;
+    color: #706e6e;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+
+
+
+/* Contact Information Section */
+.Contact-Information-Section {
+    width: 80%;
+    height: 85vh;
+    margin: auto;
+}
+
+.map {
+    width: 43%;
+    float: right;
+    padding-top: 6%;
+}
+
+.Contact-Information-Content {
+    width: 40%;
+    float: left;
+}
+
+.Icon-Contact {
+    border: #8e7754 1px solid;
+    background-color: #8e7754;
+    border-radius: 50%;
+}
+
+.Contact-Information-Content img {
+    width: 35px;
+}
+
+.Contact-Information-Content ul {
+    list-style: none;
+}
+
+.Contact-Information-Content ul li {
+    list-style: none;
+    font-size: 16px;
+    color: rgb(112, 110, 110);
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+
+.Contact-Information-Content p {
+    font-size: 19px;
+    color: rgb(112, 110, 110);
+    letter-spacing: 1px;
+    line-height: 29px;
+}
+
+.Contact-Information-Content h2 {
+    font-size: 35px;
+    color: rgb(31, 31, 31)
+}
+
+/* Summary-Section */
+.Summary-Big-Container {
+    width: 100%;
+    background-color: #403d38;
+}
+
+.Summary-Section-Container {
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    background-image: url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.Summary-iteam {
+    width: 25%;
+    float: left;
+    margin: auto;
+}
+
+.Summary-iteam img {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.Summary-iteam ul {
+    list-style: none;
+}
+
+.Summary-iteam li {
+    font-size: 16px;
+    color: #9a9998;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: inline-block;
+    border-bottom: 1px solid rgb(159, 159, 159, 0.1);
+}
+
+.Summary-iteam li a {
+    text-decoration: none;
+    color: #9a9998;
+}
+
+.Summary-iteam p {
+    font-size: 16px;
+    color: #9a9998;
+    line-height: 25px;
+}
+
+.Summary-iteam h4 {
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: rgb(219, 209, 209);
+}
+
+/* Footer */
+.footer-container {
+    width: 100%;
+    height: 48vh;
+    background-color: #353330;
+    background-image: url(../images/bakery-light-1.png);
+    background-repeat: no-repeat;
+    background-position: center 28%;
+    text-align: center;
+    padding-top: 13%;
+}
+
+.footer-container p {
+    padding-bottom: 30px;
+    margin-left: 3%;
+    text-align: center;
+    color: #777;
+}
+
+.Footer-container-iteams img {
+    width: 40px;
+    border: #484540 1px solid;
+    border-radius: 50%;
+    background-color: #484540;
+}
+
+.Footer-container-iteams {
+    float: left;
+    margin: auto;
+    padding-left: 46%;
+}
+
+.item-social-media {
+    float: left;
+    padding: 3px;
+}
+
+.Footer-container-iteams ul li {
+    list-style: none;
+}
